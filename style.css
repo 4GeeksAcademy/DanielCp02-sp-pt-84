@@ -1,0 +1,61 @@
+
+.contenido{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 2px solid gainsboro;
+}
+
+.publicacion{
+    background: white;
+}
+
+/* ------- Cabecera Foto ------*/
+.headPubli{
+    display: flex;
+}
+
+.headPubli h2,
+.headPubli p{
+    padding: 5px;
+    margin: 0;
+}
+
+.headPubli h2{
+    width: 80%;
+    
+}
+
+.headPubli p{
+    width: 20%;
+    padding-top: 10px;
+    text-align: right;
+    color: gray;
+}
+
+/*------ Foto -------*/
+.bodyPubli {
+    position: relative;
+  }
+
+.foto{
+    width: 100%;
+}
+
+/*------ Like -------*/
+
+.heart {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; /* Ajusta el tamaño del corazón según tu imagen */
+    height: 60%; /* Ajusta el tamaño del corazón según tu imagen */
+  }
+
+/*------ Pie Foto --------*/
+.footPubli p{
+    padding: 10px;
+    margin-top: 0;
+}
